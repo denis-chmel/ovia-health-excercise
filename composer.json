@@ -1,0 +1,22 @@
+{
+    "name": "denis-chmel/ovia-health",
+    "license": "proprietary",
+    "type": "library",
+    "description": "OviaHealth exercise",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    }
+}
